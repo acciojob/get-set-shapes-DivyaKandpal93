@@ -21,7 +21,7 @@ this.Rwidth = Rwidth;
     }
 }
 
-class square extends Rectangle{
+class Square extends Rectangle{
     constructor(side){
         super(side, side);
 
@@ -35,7 +35,7 @@ return 4*this.width;
 
 const rect = new Rectangle(5,6);
 console.log(rect.getArea());
-const sq = new square(4);
+const sq = new Square(4);
 console.log(sq.getperimeter());
 // Do not change the code below this line
 window.Rectangle = Rectangle;
